@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<div class="menu">
+    {{ content }}
+    {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="button">
+        <ul class="row">
+            <li class="title">{{ post.title}}</li>
+            <li class="type">{{ post.type}}</li>
+            <li class="date">{{ post.date | date: "%d.%m.%Y" }}</li>
+        </ul>
+    </a>
+    {% endfor %}
+</div>
