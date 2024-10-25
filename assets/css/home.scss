@@ -1,0 +1,35 @@
+.menu {
+	font-family: 'lato', sans-serif;
+	text-align: center;
+	width: 100%;
+	word-break: break-all;
+}
+.menu .button {
+	color: inherit;
+	display: block;
+}
+.menu .row li {
+	display: inline-block;
+}
+.menu .row {
+	display: block;
+	margin: 25px;
+	padding: 25px;
+	border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+	overflow: hidden;
+	list-style: none;
+	background-color: red;
+}
+.menu .row .title {
+	width: 60%;
+}
+.menu .row .type {
+	width: 15%;
+}
+.menu .row .date {
+	width: 15%;
+}
+.menu :hover {
+	background-color: #ddd;
+}
