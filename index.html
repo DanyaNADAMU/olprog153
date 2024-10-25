@@ -3,7 +3,6 @@ layout: base
 ---
 
 <div class="menu">
-    {{ content }}
     {% for post in site.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="button">
         <ul class="row">
