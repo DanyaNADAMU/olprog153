@@ -7,16 +7,16 @@
 .menu .button {
 	color: inherit;
 	display: block;
+	margin: 25px;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .menu .row li {
 	display: inline-block;
 }
 .menu .row {
 	display: block;
-	margin: 25px;
-	padding: 25px;
-	border-radius: 15px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 	overflow: hidden;
 	list-style: none;
 }
@@ -30,5 +30,6 @@
 	width: 15%;
 }
 .menu :hover {
+	overflow: hidden;
 	background-color: #ddd;
 }
