@@ -18,7 +18,6 @@
 	display: block;
 	overflow: hidden;
 	list-style: none;
-	margin: 25px;
 	padding: 25px;
 }
 .menu .row .title {
@@ -29,8 +28,4 @@
 }
 .menu .row .date {
 	width: 15%;
-}
-.menu :hover {
-	overflow: hidden;
-	background-color: #ddd;
 }
