@@ -6,11 +6,9 @@ layout: base
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% for post in site.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="button">
-    <ul class="row">
-      <li class="title">{{ post.title}}</li>
-      <li class="type">{{ post.type}}</li>
-      <li class="date">{{ post.date | date: date_format }}</li>
-    </ul>
+      <div class="title">{{ post.title}}</div>
+      <div class="type">{{ post.type}}</div>
+      <div class="date">{{ post.date | date: date_format }}</div>
   </a>
   {% endfor %}
 </div>
