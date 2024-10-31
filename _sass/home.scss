@@ -12,6 +12,10 @@
 	padding: 25px;
 	overflow: hidden;
 	text-decoration: none;
+	width: 100%;
+}
+.menu .row :hover {
+	background-color: #ddd;
 }
 .menu .row .label {
 	display: inline-block;
