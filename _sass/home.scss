@@ -1,6 +1,5 @@
 .menu {
 	font-family: 'lato', sans-serif;
-	text-align: center;
 	width: 100%;
 	word-break: break-all;
 }
@@ -12,10 +11,11 @@
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 	padding: 25px;
 	overflow: hidden;
+	text-decoration: none;
 }
 .menu .row .label {
 	display: inline-block;
-	background-color: red;
+	text-align: center;
 }
 .menu .row .title {
 	width: 60%;
