@@ -5,7 +5,7 @@ layout: base
 <div class="menu">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% for post in site.posts %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="button">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="row">
       <div class="label title">{{ post.title}}</div>
       <div class="label type">{{ post.type}}</div>
       <div class="label date">{{ post.date | date: date_format }}</div>
