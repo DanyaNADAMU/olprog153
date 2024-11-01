@@ -4,6 +4,7 @@ author:
   email: nagimovdm@gmail.com
 theme: minima
 permalink: /:path
+favicon: /assets/img/favicon.ico
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
