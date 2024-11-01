@@ -3,6 +3,7 @@ author:
   name: DanyaNADAMU
   email: nagimovdm@gmail.com
 theme: minima
+permalink: /:path
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
