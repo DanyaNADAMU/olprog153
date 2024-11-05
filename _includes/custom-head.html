@@ -1,21 +1,2 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-{%- if page.favicon or site.favicon %}
-  {%- assign favicon = page.favicon | default: site.favicon %}
-  {%- assign favicon_ext = favicon | split: "." | last | downcase %}
-  {%- if favicon_ext == 'svg' %}
-    {%- assign favicon_type = 'image/svg+xml' %}
-  {%- elsif favicon_ext == 'ico' %}
-    {%- assign favicon_type = 'image/vnd.microsoft.icon' %}
-  {%- elsif favicon_ext == 'gif' %}
-    {%- assign favicon_type = 'image/gif' %}
-  {%- elsif favicon_ext == 'png' %}
-    {%- assign favicon_type = 'image/png' %}
-  {%- elsif favicon_ext == 'bmp' %}
-    {%- assign favicon_type = 'image/bmp' %}
-  {%- elsif favicon_ext == 'jpeg' or favicon_ext == 'jpg' %}
-    {%- assign favicon_type = 'image/jpeg' %}
-  {%- else %}
-    {%- assign favicon_type = '' %}
-  {%- endif %}
-  <link rel="icon" href="{{ favicon | relative_url }}"{% if favicon_type != '' %} type="{{ favicon_type }}"{% endif %}>
-{%- endif %}
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
